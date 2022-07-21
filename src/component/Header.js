@@ -6,7 +6,7 @@ const Header = () => {
         <>
             <nav className="navbar navbar-expand-lg navbar-light bg-light">
                 <div className="container">
-                    <a className="navbar-brand" href="#">My Store</a>
+                    <a className="navbar-brand" href="/">My Store</a>
                     <button
                         className="navbar-toggler"
                         type="button"
@@ -20,9 +20,9 @@ const Header = () => {
                     </button>
                     <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
                         <div className="navbar-nav ms-auto">
-                            <a className="nav-link active" aria-current="page" href="#">Home</a>
-                            <a className="nav-link" href="#">Products</a>
-                            <a className="nav-link" href="#">Cart</a>
+                            <a className="nav-link active" aria-current="page" href="/">Home</a>
+                            <a className="nav-link" href="/">Products</a>
+                            <a className="nav-link" href="/">Cart</a>
                         </div>
                     </div>
                 </div>
